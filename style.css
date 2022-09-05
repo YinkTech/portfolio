@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500:800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;500&display=swap");
+#root {
+  background: #1f2729;
+  color: #1beafd;
+}
+
+.header {
+  background: #1f2729;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+.header .nav .logo {
+  text-align: center;
+}
+.header .nav .logo .logo-img {
+  padding-right: 0;
+  padding-left: 0;
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+}
+.header .nav .logo .logo-text {
+  align-self: center;
+}
+.header .nav .nav-text {
+  color: #1beafd;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.first-section .lead-text {
+  color: #fff;
+}
+.first-section .lead-text span {
+  color: #1beafd;
+}
+.first-section h4 {
+  color: #1beafd;
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+}
+.first-section h3 {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.first-section-aside .card {
+  background: linear-gradient(#1f2729, #151a1c);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.button {
+  color: #fff;
+  background: #129daa;
+}
+
+.fancy {
+  padding: 15px;
+  background: rgba(14, 128, 138, 0.3921568627);
+  color: #fff;
+}
+
+.fancy-but::before {
+  position: absolute;
+  top: -28.8675px;
+}
+
+.fancy-but::after {
+  position: absolute;
+  bottom: -28.8675px;
+}
+
+.fab {
+  font-size: 30px;
+}
+
+.section-second {
+  background: #283234;
+  color: #1beafd;
+}
+.section-second .container {
+  padding-top: 80px;
+}
+.section-second .container h3 {
+  color: #fff;
+}
+.section-second .container h3 span {
+  color: #1beafd;
+}
+.section-second .container .row {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.section-second .container .row .col-md-4 {
+  margin-top: 20px;
+}
+.section-second .container .row .col-md-4 .card {
+  background: linear-gradient(#1f2729, #151a1c);
+  font-family: "Courier New", Courier, monospace;
+}
+.section-second .container .row .col-md-4 .card .card-body .card-title .second-icon {
+  height: 100px;
+  border-radius: 100px;
+  border: 2px solid #1beafd;
+  width: 100px;
+}
+.section-second .container .row .col-md-4 .card .card-body .card-text {
+  color: #fff;
+}
+.section-second .container .row .col-md-4 .card .card-body .card-text span {
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.third-section h2 {
+  color: #fff;
+}
+.third-section h2 span {
+  color: #1beafd;
+}
+
+.forth-section {
+  background: #283234;
+  color: #1beafd;
+}
+
+@media screen and (max-width: 420px) {
+  .header .nav .logo .logo-img {
+    width: 50px;
+    height: 50px;
+  }
+  .header .nav .nav-text {
+    font-size: 15px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
