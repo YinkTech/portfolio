@@ -14,6 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Icon -->
     <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/icon.jpg" type="image/x-icon">
@@ -37,7 +38,8 @@
             </div>
         </div>
     </div>
-<div class="container-fluid py-0 py-sm-5 section-first">
+
+<div class="container-fluid py-0 py-sm-5 section-first firstSection">
    
     <div class="container justify-content-around">
         <div class="d-sm-flex">
@@ -72,7 +74,7 @@
         </div>
         <div class="my-3">
             
-          <a href="#root4"><button class="shadow text btn fs-2 button mb-3" > Let Talk</button></a>  
+          <a href="#root4"><button class="shadow text btn fs-2 button mb-3" > Let's Chat</button></a>  
 
             <div class="my-5">
                 <span class="text-capitalize text-white fs-3">Check out my </span>
@@ -81,14 +83,15 @@
                     <a href="" class="fancy-but shadow ml-3"> <i class="fancy btn fab fa-twitter"></i></a>
                     <a href="" class="fancy-but shadow ml-3"> <i class="fancy btn fab fa-linkedin"></i></a>
                     <a href="" class="fancy-but shadow"> <i class="fancy btn fab fa-angellist"></i></a>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-    </div>
 
 
 
 </div>
+
 <div class="section-second" id="root2">
     <div class="container">
         
@@ -96,8 +99,8 @@
         <h1 class="mt-4 text-white">What I Do</h1>
 
         <div class="row">
-            <div class="col-md-4">
-                <div class="card shadow" style="width: 18rem;">
+            <div class="col-lg-3 secondDivCol">
+                <div class="card shadow">
                     <div class="card-body text-center">
                       <h5 class="card-title"><img src="./assets/code.png" class="second-icon img-fluid" alt="react-logo"></h5>
                       <h6 class="card-subtitle mb-2 text-white my-3 fs-4 fw-bold text-capitalize">Soft Skills</h6>
@@ -111,8 +114,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-lg-3 secondDivCol">
+                <div class="card" >
                     <div class="card-body text-center">
                       <h5 class="card-title"><img src="./assets/framework.png" class="second-icon img-fluid" alt="freamwork-logo"></h5>
                       <h6 class="card-subtitle mb-2 text-white my-3 fs-4 fw-bold text-capitalize">Frameworks</h6>
@@ -126,8 +129,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card shadow" style="width: 18rem;">
+            <div class="col-lg-3 secondDivCol">
+                <div class="card shadow" >
                     <div class="card-body text-center">
                       <h5 class="card-title"><img src="./assets/reac-icon.png" class="second-icon img-fluid" alt="react-logo"></h5>
                       <h6 class="card-subtitle mb-2 text-white my-3 fs-4 fw-bold text-capitalize">Languages</h6>
@@ -141,8 +144,8 @@
                   </div>
             </div>
 
-            <div class="col-md-4 mx-auto">
-                <div class="card shadow" style="width: 18rem;">
+            <div class="col-lg-3 secondDivCol mx-auto">
+                <div class="card shadow" >
                     <div class="card-body text-center">
                       <h5 class="card-title"><img src="./assets/skills.jpg" class="second-icon p-1 img-fluid" alt="react-logo"></h5>
                       <h6 class="card-subtitle mb-2 text-white my-3 fs-4 fw-bold text-capitalize">Skills</h6>
@@ -160,48 +163,183 @@
         </div>
     </div>
 </div>
+
+
+
 <div class="third-section py-5" id="root3">
     <div class="container pt-5">
-        <h2> Recent <span>Projects</span> </h2>
+        <h2 class="pt-5 ">My Recent <span>Projects</span> </h2>
+        <hr class="separator pb-4" />
+        <div class="container-fluid">
+
+                <div class="card shadow-lg rounded-5 text-info d-md-none">
+                    <img src="./assets/proj/Coins-Marketplace.png" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                      
+                        <div class="">
+                         <h6 class="text-white"> Coins Marketplace </h6>
+                           <div class="d-flex justify-content-between">
+                            <span class="card-text  p-2 text-wrap bg-dark"> React.JS</span>
+                            <span class="card-text  p-2 text-wrap bg-dark">Redux</span>
+                            <span class="card-text  p-2 text-wrap bg-dark">Bootstrap</span>
+                           </div>
+                      </div>
+                      <button class="card-text btn button ">Vist website</button>
+                    </div>
+                </div>
+            <div class="projectList d-none d-md-block">
+                <div class="item border shadow-lg p-3 rounded">
+                    <img src="./assets/Calculator.png" alt="item" class="img-fluid item-img ">
+                    <h5 class="my-4 text-capitalize">Maths Magicians</h5>
+                    <p class="text-wrap">This project is a for Maths Lovers, A simple and easy Ui Maths Calculator for Basics maths operations</p>
+                    <a href="https://yinktech.github.io/math-magicians/" target="_blank"><button class="btn btn-outline-info"> Vist Project</button></a>
+                </div>
+            
+                <div class="item border shadow-lg p-3 rounded">
+                    <img src="./assets/projects/coins.png" alt="item" class="img-fluid item-img ">
+                    <h5 class="my-4 text-capitalize">Coins Marketplace</h5>
+                    <p class="text-wrap">This project is a captone project in javascript, where data is been fetched from api and a data is also passed. It also including searching the name</p>
+                    <a href="https://yinktech.github.io/Coins-Marketplace/" target="_blank"><button class="btn btn-outline-info"> Vist Project</button></a>
+                </div>
+            
+                <div class="item border shadow-lg p-3 rounded">
+                    <img src="./assets/proj/Coins-Marketplace.png" alt="item" class=" ">
+                    <h5 class="my-4 text-capitalize">Cryptocurrency marketplace</h5>
+                    <p>his</p>
+                    <button class="btn btn-outline-info"> Vist Project</button>
+                </div>
+            
+                <div class="item border shadow-lg p-3 rounded">
+                    <img src="./assets/proj/Coins-Marketplace.png" alt="item" class=" ">
+                    <h5 class="my-4 text-capitalize">Cryptocurrency marketplace</h5>
+                    <p>his</p>
+                    <button class="btn btn-outline-info"> Vist Project</button>
+                </div>
+            
+                <div class="item border shadow-lg p-3 rounded">
+                    <img src="./assets/proj/Coins-Marketplace.png" alt="item" class=" ">
+                    <h5 class="my-4 text-capitalize">Cryptocurrency marketplace</h5>
+                    <p>his</p>
+                    <button class="btn btn-outline-info"> Vist Project</button>
+                </div>
+            
+                <div class="item border shadow-lg p-3 rounded">
+                    <img src="./assets/proj/Coins-MarketplaceDetails.png" alt="item" class=" ">
+                    <h5 class="my-4 text-capitalize">Cryptocurrency marketplace</h5>
+                    <p>his</p>
+                    <button class="btn btn-outline-info"> Vist Project</button>
+                </div>
+            </div>
+
+
+
+
+            <div class="img-container">
+                <div class="pt-5">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="./assets/proj/Coins-MarketplaceMobile.png" class="img-fluid w-full h-full hover:scale-125 object-cover object-left transition-all" alt="">
+                        </div>
+                        <div class="col-md-9">
+                            <img src="./assets/proj/Coins-Marketplace.png" class="img-fluid transition-all" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="./assets/proj/Coins-MarketplaceMobile.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-9">
+                            <img src="./assets/proj/Coins-Marketplace.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="forth-section" id="root4">
+<div class="forth-section pb-3"  id="root4" >
     <div class="container">
-        <h3 class="text-white pt-5"></h3>
+        <h3 class="text-white pt-5 "><i class="fa fa-circle text-primary " aria-hidden="true"></i><i class="fa fa-circle text-warning" aria-hidden="true"></i><i class="fa fa-circle text-info" aria-hidden="true"></i></h3>
+        <div class="message-sec m-sm-5 p-3">
+                <div class="text-center">
+            <h1 class="text-info">Let's <span class="text-white">Talk</span></h1>
+            
+        </div>
+        <div class="row ">
+            <div class="col-md-6">
+                <div class="text-center mt-2 d-block d-md-none ">
+                    <a href="http://wa.me/+2349069632934"><i class="fancy btn fa fa-whatsapp" aria-hidden="true"></i></a>
+                    <a href="tel:+2349069632934"><i class="fancy btn fa fa-phone" aria-hidden="true"></i></a>
+                    <a href="https://t.me/YinkTech"><i class="fancy btn fa fa-telegram" aria-hidden="true"></i></a>
+                    <a href="mailto:layinka4dat@gmail.com"><i class="fancy btn fa fa-envelope" aria-hidden="true"></i></a>
+                </div>
+                <form action="https://formsubmit.co/layinka4dat.com" method="POST" class=" mx-auto" >
+                    <input type="hidden" name="_subject" value="Portfolio Message!">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_autoresponse" value="Invitation sent to YinkTech Successfully">
+                    <div class="form-group mb-3">
+                        <label for="name" class="m-2"> Your Name:  </label>
+                        <input type="text" class="form-control" id="name" name="name">
+                    </div>
+        
+                    <div class="form-group mb-3">
+                        <label for="email" class="m-2"> Your Email:  </label>
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="m-2"> Your Message: </label>
+                        <textarea name="message" rows="5x" class="form-control" id="message" ></textarea>
+                    </div>
+                    
+                    <div class="form-group m-3 text-center">
+                        <button type="submit" class="btn btn-outline-info w-100 fs-4 p-0">Submit</button>
+                    </div>
+        
+                   
+                </form>
+            </div>
+            <div class="col-md-6 fs-5 mt-3 d-none d-md-block">
+                Interested in collaborating?
+                you can drop me a message, and I will respond as soon as i can.
+                you can contact through any of this way you prefare.
+                    <div class="text-center mt-2 ">
+                        <a href="http://wa.me/+2349069632934"><i class="fancy btn fa fa-whatsapp" aria-hidden="true"></i></a>
+                        <a href="tel:+2349069632934"><i class="fancy btn fa fa-phone" aria-hidden="true"></i></a>
+                        <a href="https://t.me/YinkTech"><i class="fancy btn fa fa-telegram" aria-hidden="true"></i></a>
+                        <a href="mailto:layinka4dat@gmail.com"><i class="fancy btn fa fa-envelope" aria-hidden="true"></i></a>
+                    </div>
+                <div class="separate-col text-center"></div>
+            </div>
+        </div>
+        </div>
+
+      
     </div>
 </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+ 
 
-    <section>
-        <form action="https://formspree.io/f/mrgdegja" method="POST" >
-            <label>
-                Your email:
-                <input type="email" class="form-control" name="email">
-            </label>
-            <label>
-                Your message:
-                <textarea name="message" class="form-control" ></textarea>
-            </label>
-            <button type="submit">Send</button>
-        </form>
-    </section>
+
+
+    <section class="">
   
+    </section>
+  <footer class="footer p-3" >
+    <h5> Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2022 YinkTech, INC. <span class="text-white">All rights reserved</span>  <i class="fa fa-registered" aria-hidden="true"></i>. </h5>
+    <div class="mt-1">
+        <a href="" class="fancy-but shadow "> <i class="fotfancy btn fab fa-github"></i></a>
+        <a href="" class="fancy-but shadow ml-3"> <i class="fotfancy btn fab fa-twitter"></i></a>
+        <a href="" class="fancy-but shadow ml-3"> <i class="fotfancy btn fab fa-linkedin"></i></a>
+        <a href="" class="fancy-but shadow"> <i class="fotfancy btn fab fa-angellist"></i></a>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="./assets/js/jsapPlugin/ScrollToPlugin.min.js"></script>
+  <script src="./assets/js/jsapPlugin/ScrollTrigger.min.js"></script>
+  <script src="./assets/js/jsapPlugin/Flip.min.js"></script>
+  <script src="./anime.js"></script>
   <script src="https://kit.fontawesome.com/385ee2c240.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>

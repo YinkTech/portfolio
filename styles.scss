@@ -11,9 +11,33 @@ $textHigh-color: #39edfe;
 $lead-text: #fff;
 // $text-color: #048934;
 
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #129daa;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0c717b;
+  }
 #root {
-    background: $bg-color;
+    background: linear-gradient(141deg, #1f2729 0%, #283234 51%, #1f2729 75%);
     color: $text-color;
+}
+
+a:hover {
+    color:$text-color
 }
 
 .header {
@@ -26,8 +50,8 @@ $lead-text: #fff;
             .logo-img {
                 padding-right: 0;
                 padding-left: 0;
-                width: 90px;
-                height: 90px;
+                width: 60px;
+                height: 60px;
                 border-radius: 100px;
             }
             .logo-text {
@@ -73,6 +97,7 @@ $lead-text: #fff;
 .button {
     color: $lead-text;
     background: #129daa;
+    font-family: "Playfair Display", serif;
 }
 
 .fancy {
@@ -109,9 +134,10 @@ $lead-text: #fff;
         .row {
             padding-top: 20px;
             padding-bottom: 20px;
-            .col-md-4 {
+            .secondDivCol {
                 margin-top: 20px;
                 .card {
+                    height: 350px;
                     background: linear-gradient(#1f2729, #151a1c);
                     font-family: 'Courier New', Courier, monospace;
                     .card-body{
@@ -121,6 +147,7 @@ $lead-text: #fff;
                                 border-radius: 100px;
                                 border: 2px solid $text-color;
                                 width: 100px;
+                                background: $lead-text;
                             }
                         }
                         .card-text {
@@ -141,17 +168,140 @@ $lead-text: #fff;
 }
 
 .third-section {
-    h2 {
-        color: $lead-text;
-        span {
-            color: $text-color;
+    .container {
+        h2 {
+            color: $lead-text;
+            margin-bottom: 10px;
+            span {
+                color: $text-color;
+            }
         }
+        .card {
+            background: inherit;
+            height: 100%;
+            width: 100%;
+            .card-img-overlay {
+                background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 48.44%, #000 100%);
+            }
+        }
+        .projectList {
+            overflow: auto;
+            white-space: nowrap;
+            text-align: center;
+            .item {
+                margin: 10px;
+                text-align: start;
+                display: inline-flex;
+                flex-direction: column;
+                width: 300px;
+            }
+                .item-img {
+                    width: 280px;
+                }
+                .item-img:hover {
+                    transform: translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(1.25)) scaleY(var(1.25))
+                }
+        }
+        ::-webkit-scrollbar {
+            width: 10px;
+          }
+          
+          /* Track */
+          ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey; 
+            border-radius: 10px;
+          }
+           
+          /* Handle */
+          ::-webkit-scrollbar-thumb {
+            background: #129daa; 
+            border-radius: 5px;
+          }
+          
+          /* Handle on hover */
+          ::-webkit-scrollbar-thumb:hover {
+            background: #0e7a84;
+            transition: 1.5s ease-in-out;
+          }
     }
 }
 
 .forth-section {
     background: $bg-color2;
     color: $text-color;
+}
+
+.fa-circle:hover {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.message-sec {
+    border: 0.5px solid $text-color;
+    box-shadow: 1px 1px 3px 3px;
+    margin: 20px;
+    div {
+        font-family: "Playfair Display", serif;
+        letter-spacing: 1px;
+        small {
+            font-size: 20px;
+        }
+    }
+    div {
+        div {
+            form {
+                div {
+                    input {
+                        border: 1px solid $text-color;
+                        color: $text-color;
+                        border-radius: 20px 20px 20px 20px;
+                        background: inherit;
+                    }
+                    input:focus {
+                        color: $text-color;
+                        border: none;
+                        background: inherit;
+                    }
+                    textarea {
+                        border: 1px solid $text-color;
+                        border-radius: 20px 20px 20px 20px;
+                        background: inherit;
+                    }
+                    textarea:focus {
+                        color: $text-color;
+                        border: none;
+                        background: inherit;
+                    }
+                    button {
+                        border-radius: 40px 40px 40px 40px;
+                        background: inherit;
+                    }
+                }
+            }
+        }
+        .separate-col {
+            padding: 0;
+            background-image: url('./assets/ops-in.png');
+            height: 65%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: right;
+            border: 0;
+        }
+    }
+}
+
+.footer {
+    border-top: 2px ridge #1e7e99;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    .fotfancy {
+        padding: 5px;
+        background: rgba(14, 128, 138, 0.3921568627);
+        color: #fff;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -165,6 +315,17 @@ $lead-text: #fff;
             }
             .nav-text {
                 font-size: 15px;
+            }
+        }
+    }
+    .third-section {
+        .container {
+            .container-fluid {
+                .projectList {
+                    .item {
+                        width: 200px;
+                    }
+                }
             }
         }
     }

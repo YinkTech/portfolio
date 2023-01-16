@@ -1,8 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500:800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;500&display=swap");
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #129daa;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0c717b;
+}
+
 #root {
-  background: #1f2729;
+  background: linear-gradient(141deg, #1f2729 0%, #283234 51%, #1f2729 75%);
+  color: #1beafd;
+}
+
+a:hover {
   color: #1beafd;
 }
 
@@ -17,8 +42,8 @@
 .header .nav .logo .logo-img {
   padding-right: 0;
   padding-left: 0;
-  width: 90px;
-  height: 90px;
+  width: 60px;
+  height: 60px;
   border-radius: 100px;
 }
 .header .nav .logo .logo-text {
@@ -56,6 +81,7 @@
 .button {
   color: #fff;
   background: #129daa;
+  font-family: "Playfair Display", serif;
 }
 
 .fancy {
@@ -95,39 +121,153 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.section-second .container .row .col-md-4 {
+.section-second .container .row .secondDivCol {
   margin-top: 20px;
 }
-.section-second .container .row .col-md-4 .card {
+.section-second .container .row .secondDivCol .card {
+  height: 350px;
   background: linear-gradient(#1f2729, #151a1c);
   font-family: "Courier New", Courier, monospace;
 }
-.section-second .container .row .col-md-4 .card .card-body .card-title .second-icon {
+.section-second .container .row .secondDivCol .card .card-body .card-title .second-icon {
   height: 100px;
   border-radius: 100px;
   border: 2px solid #1beafd;
   width: 100px;
+  background: #fff;
 }
-.section-second .container .row .col-md-4 .card .card-body .card-text {
+.section-second .container .row .secondDivCol .card .card-body .card-text {
   color: #fff;
 }
-.section-second .container .row .col-md-4 .card .card-body .card-text span {
+.section-second .container .row .secondDivCol .card .card-body .card-text span {
   display: block;
   font-family: "Courier New", Courier, monospace;
   font-weight: 800;
   letter-spacing: 1.5px;
 }
 
-.third-section h2 {
-  color: #fff;
+.third-section .container {
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
 }
-.third-section h2 span {
+.third-section .container h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.third-section .container h2 span {
   color: #1beafd;
+}
+.third-section .container .card {
+  background: inherit;
+  height: 100%;
+  width: 100%;
+}
+.third-section .container .card .card-img-overlay {
+  background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 48.44%, #000 100%);
+}
+.third-section .container .projectList {
+  overflow: auto;
+  white-space: nowrap;
+  text-align: center;
+}
+.third-section .container .projectList .item {
+  margin: 10px;
+  text-align: start;
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+}
+.third-section .container .projectList .item-img {
+  width: 280px;
+}
+.third-section .container .projectList .item-img:hover {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skew(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(1.25)) scaleY(var(1.25));
+}
+.third-section .container ::-webkit-scrollbar {
+  width: 10px;
+}
+.third-section .container ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.third-section .container ::-webkit-scrollbar-thumb {
+  background: #129daa;
+  border-radius: 5px;
+}
+.third-section .container ::-webkit-scrollbar-thumb:hover {
+  background: #0e7a84;
+  transition: 1.5s ease-in-out;
 }
 
 .forth-section {
   background: #283234;
   color: #1beafd;
+}
+
+.fa-circle:hover {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.message-sec {
+  border: 0.5px solid #1beafd;
+  box-shadow: 1px 1px 3px 3px;
+  margin: 20px;
+}
+.message-sec div {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 1px;
+}
+.message-sec div small {
+  font-size: 20px;
+}
+.message-sec div div form div input {
+  border: 1px solid #1beafd;
+  color: #1beafd;
+  border-radius: 20px 20px 20px 20px;
+  background: inherit;
+}
+.message-sec div div form div input:focus {
+  color: #1beafd;
+  border: none;
+  background: inherit;
+}
+.message-sec div div form div textarea {
+  border: 1px solid #1beafd;
+  border-radius: 20px 20px 20px 20px;
+  background: inherit;
+}
+.message-sec div div form div textarea:focus {
+  color: #1beafd;
+  border: none;
+  background: inherit;
+}
+.message-sec div div form div button {
+  border-radius: 40px 40px 40px 40px;
+  background: inherit;
+}
+.message-sec div .separate-col {
+  padding: 0;
+  background-image: url("./assets/ops-in.png");
+  height: 65%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  border: 0;
+}
+
+.footer {
+  border-top: 2px ridge #1e7e99;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.footer .fotfancy {
+  padding: 5px;
+  background: rgba(14, 128, 138, 0.3921568627);
+  color: #fff;
 }
 
 @media screen and (max-width: 420px) {
@@ -137,6 +277,9 @@
   }
   .header .nav .nav-text {
     font-size: 15px;
+  }
+  .third-section .container .container-fluid .projectList .item {
+    width: 200px;
   }
 }
 
