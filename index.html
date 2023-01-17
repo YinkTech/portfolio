@@ -167,94 +167,397 @@
 
 
 <div class="third-section py-5" id="root3">
-    <div class="container pt-5">
+    <div class="container-fluid pt-2">
         <h2 class="pt-5 ">My Recent <span>Projects</span> </h2>
         <hr class="separator pb-4" />
-        <div class="container-fluid">
-
-                <div class="card shadow-lg rounded-5 text-info d-md-none">
-                    <img src="./assets/proj/Coins-Marketplace.png" class="card-img" alt="...">
+        <div class="container ">
+<!-- mobile view -->
+                <div class="card shadow-lg rounded-5 mb-5 text-info d-md-none">
+                    <img src="./assets/projects/stock1.png" class="card-img" alt="...">
                     <div class="card-img-overlay d-flex flex-column justify-content-between">
                       
-                        <div class="">
-                         <h6 class="text-white"> Coins Marketplace </h6>
+                       <div class="p-0">
+                         <h5 class="text-white p-0"> Stock-Market </h5>
                            <div class="d-flex justify-content-between">
                             <span class="card-text  p-2 text-wrap bg-dark"> React.JS</span>
                             <span class="card-text  p-2 text-wrap bg-dark">Redux</span>
                             <span class="card-text  p-2 text-wrap bg-dark">Bootstrap</span>
                            </div>
                       </div>
-                      <button class="card-text btn button ">Vist website</button>
+                      <a href="https://yinktech.github.io/Stock-Market" target="_blank"><button class="card-text btn button ">View the Project</button></a> 
                     </div>
                 </div>
-            <div class="projectList d-none d-md-block">
+
+                <div class="card shadow-lg rounded-5 mb-5 text-info d-md-none">
+                    <img src="./assets/projects/coins1.png" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                      
+                       <div class="p-0">
+                         <h5 class="text-white p-0"> Coins-Marketplace </h5>
+                         <div class="d-flex justify-content-between">
+                            <span class="card-text  p-2 text-wrap bg-dark"> HTML/CSS</span>
+                            <span class="card-text  p-2 text-wrap bg-dark"> Node.JS </span>
+                            <span class="card-text  p-2 text-wrap bg-dark"> Bootstrap </span>
+                         </div>
+                      </div>
+                      <a href="https://yinktech.github.io/Coins-Marketplace/" target="_blank"><button class="card-text btn button ">View the Project</button></a> 
+                    </div>
+                </div>
+
+                <div class="card shadow-lg rounded-5 mb-5 text-info d-md-none">
+                    <img src="./assets/projects/cal1.png" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                      
+                       <div class="p-0">
+                         <h5 class="text-white p-0"> Maths Magicians </h5>
+                         <div class="d-flex justify-content-between">
+                            <span class="card-text  p-2 text-wrap bg-dark"> React.JS</span>
+                            <span class="card-text  p-2 text-wrap bg-dark"> SCSS </span>
+                        </div>
+                      </div>
+                      <a href="https://yinktech.github.io/math-magicians/" target="_blank"><button class="card-text btn button ">View the Project</button></a> 
+                    </div>
+                </div>
+
+                <div class="card shadow-lg rounded-5 mb-5 text-info d-md-none">
+                    <img src="./assets/projects/movie1.png" class="card-img" alt="...">
+                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                      
+                       <div class="p-0">
+                         <h5 class="text-white p-0"> Movies-Store </h5>
+                         <div class="d-flex justify-content-between">
+                            <span class="card-text  p-2 text-wrap bg-dark"> React.JS</span>
+                            <span class="card-text  p-2 text-wrap bg-dark">Redux</span>
+                            <span class="card-text  p-2 text-wrap bg-dark">Bootstrap</span>
+                        </div>
+                      </div>
+                      <a href="https://yinktech.github.io/Bookstore-app/" target="_blank"><button class="card-text btn button ">View the Project</button></a> 
+                    </div>
+                </div>
+
+<!-- mobile view -->
+
+<!-- Desktop view -->
+
+            <div class="projectList d-none justify-content-between align-items-center d-md-flex flex-column flex-lg-row">
                 <div class="item border shadow-lg p-3 rounded">
-                    <img src="./assets/Calculator.png" alt="item" class="img-fluid item-img ">
+                    <div class="flip-box">
+                        <div class="flip-inner">
+                            <div class="flip-front">
+                                <img src="./assets/projects/stock1.png" alt="item" class="img-fluid item-img ">
+                            </div>
+                            <div class="flip-back">
+                                <img src="./assets/projects/stock2.png" alt="item" class="img-fluid item-img ">
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="my-4 text-capitalize">Stock-Market</h5>
+                    <hr class="separator" />
+                    <div class="d-flex justify-content-between">
+                        <span class="card-text  p-2 text-wrap bg-dark"> React.JS</span>
+                        <span class="card-text  p-2 text-wrap bg-dark">Redux</span>
+                        <span class="card-text  p-2 text-wrap bg-dark">Bootstrap</span>
+                    </div>
+                    <p class="text-wrap">This is a React-Redux app that display all the crytopcurrency coins and display it details on a new page with trending coins list at the side</p>
+                    <a href="https://yinktech.github.io/Stock-Market" target="_blank"><button class="btn btn-outline-info"> View the Project</button></a>
+                </div>
+
+                <div class="item border shadow-lg p-3 rounded">
+                    <div class="flip-box">
+                        <div class="flip-inner">
+                            <div class="flip-front">
+                                <img src="./assets/projects/coins1.png" alt="item" class="img-fluid item-img ">
+                            </div>
+                            <div class="flip-back">
+                                <img src="./assets/projects/coins2.png" alt="item" class="img-fluid item-img ">
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="my-4 text-capitalize">Coins-Marketplace</h5>
+                    <hr class="separator" />
+                    <div class="d-flex justify-content-between">
+                        <span class="card-text  p-2 text-wrap bg-dark"> HTML/CSS</span>
+                        <span class="card-text  p-2 text-wrap bg-dark"> Node.JS </span>
+                        <span class="card-text  p-2 text-wrap bg-dark"> Bootstrap </span>
+                    </div>
+                    <p class="text-wrap">This project is a captone project in javascript, where data is been fetched from api and a data is also passed. It also including searching the name.</p>
+                    <a href="https://yinktech.github.io/Coins-Marketplace/" target="_blank"><button class="btn btn-outline-info"> View the Project</button></a>
+                </div>
+                
+            </div>
+
+            <div class="projectList d-none justify-content-between align-items-center d-md-flex flex-column flex-lg-row ">
+                <div class="item border shadow-lg p-3 rounded">
+                    <div class="flip-box">
+                        <div class="flip-inner">
+                            <div class="flip-front">
+                                <img src="./assets/projects/cal1.png" alt="item" class="img-fluid item-img ">
+                            </div>
+                            <div class="flip-back">
+                                <img src="./assets/projects/Cal2.png" alt="item" class="img-fluid item-img ">
+                            </div>
+                        </div>
+                    </div>
                     <h5 class="my-4 text-capitalize">Maths Magicians</h5>
+                    <hr class="separator" />
+                    <div class="d-flex justify-content-between">
+                        <span class="card-text  p-2 text-wrap bg-dark"> React.JS</span>
+                        <span class="card-text  p-2 text-wrap bg-dark"> SCSS </span>
+                    </div>
                     <p class="text-wrap">This project is a for Maths Lovers, A simple and easy Ui Maths Calculator for Basics maths operations</p>
-                    <a href="https://yinktech.github.io/math-magicians/" target="_blank"><button class="btn btn-outline-info"> Vist Project</button></a>
+                    <a href="https://yinktech.github.io/math-magicians/" target="_blank"><button class="btn btn-outline-info"> View the Project</button></a>
                 </div>
-            
+
                 <div class="item border shadow-lg p-3 rounded">
-                    <img src="./assets/projects/coins.png" alt="item" class="img-fluid item-img ">
-                    <h5 class="my-4 text-capitalize">Coins Marketplace</h5>
-                    <p class="text-wrap">This project is a captone project in javascript, where data is been fetched from api and a data is also passed. It also including searching the name</p>
-                    <a href="https://yinktech.github.io/Coins-Marketplace/" target="_blank"><button class="btn btn-outline-info"> Vist Project</button></a>
+                    <div class="flip-box">
+                        <div class="flip-inner">
+                            <div class="flip-front">
+                                <img src="./assets/projects/weather1.png" alt="item" class="img-fluid item-img ">
+                            </div>
+                            <div class="flip-back">
+                                <img src="./assets/projects/weather2.png" alt="item" class="img-fluid item-img ">
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="my-4 text-capitalize">Weather App</h5>
+                    <hr class="separator" />
+                    <div class="d-flex justify-content-between">
+                        <span class="card-text  p-2 text-wrap bg-dark"> HTML/CSS </span>
+                        <span class="card-text  p-2 text-wrap bg-dark"> Webpack </span>
+                        <span class="card-text  p-2 text-wrap bg-dark"> API </span>
+                    </div>
+                    <p class="text-wrap">This project is a webpack Api function, getting weather data from API. By typing the city of choice in the search bar.</p>
+                    <a href="https://yinktech.github.io/weather-app/" target="_blank"><button class="btn btn-outline-info"> View the Project</button></a>
                 </div>
-            
+                
+            </div>
+
+            <div class="projectList d-none justify-content-between align-items-center d-md-flex flex-column flex-lg-row">
                 <div class="item border shadow-lg p-3 rounded">
-                    <img src="./assets/proj/Coins-Marketplace.png" alt="item" class=" ">
-                    <h5 class="my-4 text-capitalize">Cryptocurrency marketplace</h5>
-                    <p>his</p>
-                    <button class="btn btn-outline-info"> Vist Project</button>
+                    <div class="flip-box">
+                        <div class="flip-inner">
+                            <div class="flip-front">
+                                <img src="./assets/projects/movie1.png" alt="item" class="img-fluid item-img ">
+                            </div>
+                            <div class="flip-back">
+                                <img src="./assets/projects/movie2.png" alt="item" class="img-fluid item-img ">
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="my-4 text-capitalize">Movies-Store</h5>
+                    <hr class="separator" />
+                    <div class="d-flex justify-content-between">
+                        <span class="card-text  p-2 text-wrap bg-dark"> React.JS</span>
+                        <span class="card-text  p-2 text-wrap bg-dark">Redux</span>
+                        <span class="card-text  p-2 text-wrap bg-dark">Bootstrap</span>
+                    </div>
+                    <p class="text-wrap">This is a React-Redux app to store movies and place them in a different categories</p>
+                    <a href="https://yinktech.github.io/Bookstore-app/" target="_blank"><button class="btn btn-outline-info"> View the Project</button></a>
                 </div>
-            
+
                 <div class="item border shadow-lg p-3 rounded">
-                    <img src="./assets/proj/Coins-Marketplace.png" alt="item" class=" ">
-                    <h5 class="my-4 text-capitalize">Cryptocurrency marketplace</h5>
-                    <p>his</p>
-                    <button class="btn btn-outline-info"> Vist Project</button>
+                    <div class="flip-box">
+                        <div class="flip-inner">
+                            <div class="flip-front">
+                                <img src="./assets/projects/rotation1.png" alt="item" class="img-fluid item-img ">
+                            </div>
+                            <div class="flip-back">
+                                <img src="./assets/projects/rotation2.png" alt="item" class="img-fluid item-img ">
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="my-4 text-capitalize">Weather App</h5>
+                    <hr class="separator" />
+                    <div class="d-flex justify-content-between">
+                        <span class="card-text  p-2 text-wrap bg-dark"> HTML/CSS </span>
+                        <span class="card-text  p-2 text-wrap bg-dark"> JavaScript </span>
+                    </div>
+                    <p class="text-wrap">OFFICE OF THE HEAD OF CIVIL SERVICE OF THE FEDERATION
+                        SERVICE ROTATION SYSTEM.</p>
+                    <a href="https://yinktech.github.io/Service-Rotation-System/" target="_blank"><button class="btn btn-outline-info"> View the Project</button></a>
                 </div>
-            
-                <div class="item border shadow-lg p-3 rounded">
-                    <img src="./assets/proj/Coins-Marketplace.png" alt="item" class=" ">
-                    <h5 class="my-4 text-capitalize">Cryptocurrency marketplace</h5>
-                    <p>his</p>
-                    <button class="btn btn-outline-info"> Vist Project</button>
-                </div>
-            
-                <div class="item border shadow-lg p-3 rounded">
-                    <img src="./assets/proj/Coins-MarketplaceDetails.png" alt="item" class=" ">
-                    <h5 class="my-4 text-capitalize">Cryptocurrency marketplace</h5>
-                    <p>his</p>
-                    <button class="btn btn-outline-info"> Vist Project</button>
+                
+            </div>
+
+<!-- Desktop view -->
+
+<!-- other srcoll view -->
+
+            <div class="other-container my-3">
+                <h5>Other Projects</h5>
+                <hr class="separator" />
+                <div class="other-project">
+                    <div class="sub-item d-flex">
+                        <div class="card m-2">
+                            <div class="card-body">
+                              <h5 class="card-title">Newsweek website</h5>
+                              <div class="d-flex justify-content-between">
+                                <span class="card-text  p-2 text-wrap bg-dark"> HTML/CSS </span>
+                                <span class="card-text  p-2 text-wrap bg-dark">Bootstrap</span>
+                                <span class="card-text  p-2 text-wrap bg-dark">collaborative </span>
+                              </div>
+                              <p class="card-text">Replica of the archive version of Newsweek website.</p>
+                              
+                              <a href="https://github.com/YinkTech/Bootstrap-Milestone" target="_blank" class="card-link btn btn-outline-warning  p-1 m-0">Source Code <i class="bi bi-arrow-up-right-circle-fill "></i></a>
+                              <a href="https://ademola101.github.io/Bootstrap-Milestone/" target="_blank" class="card-link btn btn-outline-info  p-1 m-0">Live Page <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                        <div class="card m-2">
+                            <div class="card-body">
+                              <h5 class="card-title"> TeaSpot </h5>
+                              <div class="d-flex justify-content-between">
+                                <span class="card-text  p-2 text-wrap bg-dark"> HTML5 </span>
+                                <span class="card-text  p-2 text-wrap bg-dark">CSS3 </span>
+                                <span class="card-text  p-2 text-wrap bg-dark">Bootstrap</span>
+                              </div>
+                              <p class="card-text">A responsive website built following the original project specifications from Capstone Project - Tea Station.</p>
+                              
+                              <a href="https://github.com/YinkTech/tea_shop" target="_blank" class="card-link btn btn-outline-warning  p-1 m-0">Source Code <i class="bi bi-arrow-up-right-circle-fill "></i></a>
+                              <a href="https://yinktech.github.io/tea_shop/products.html" target="_blank" class="card-link btn btn-outline-info  p-1 m-0">Live Page <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                        <div class="card m-2">
+                            <div class="card-body">
+                              <h5 class="card-title"> The Next Web </h5>
+                              <div class="d-flex justify-content-between">
+                                <span class="card-text  p-2 text-wrap bg-dark"> HTML5</span>
+                                <span class="card-text  p-2 text-wrap bg-dark">CSS3</span>
+                                <span class="card-text  p-2 text-wrap bg-dark">Collaborative</span>
+                              </div>
+                              <p class="card-text">A replica of archive version of The Next Web.</p>
+                              
+                              <a href="https://github.com/YinkTech/RWD-milestone-1" target="_blank" class="card-link btn btn-outline-warning  p-1 m-0">Source Code <i class="bi bi-arrow-up-right-circle-fill "></i></a>
+                              <a href="https://ademola101.github.io/RWD-milestone-1/" target="_blank" class="card-link btn btn-outline-info  p-1 m-0">Live Page <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                        <div class="card m-2">
+                            <div class="card-body">
+                              <h5 class="card-title">Huddle</h5>
+                              <div class="d-flex justify-content-between">
+                                <span class="card-text  p-2 text-wrap bg-dark"> HTML5</span>
+                                <span class="card-text  p-2 text-wrap bg-dark">CSS</span>
+                                <span class="card-text  p-2 text-wrap bg-dark">Bootstrap</span>
+                              </div>
+                              <p class="card-text"> UI/UX Illustrator .</p>
+                              
+                              <a href="https://github.com/YinkTech/Sample" target="_blank" class="card-link btn btn-outline-warning  p-1 m-0">Source Code <i class="bi bi-arrow-up-right-circle-fill "></i></a>
+                              <a href="https://yinktech.github.io/Sample/" target="_blank" class="card-link btn btn-outline-info  p-1 m-0">Live Page <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                        <div class="card m-2">
+                            <div class="card-body">
+                              <h5 class="card-title">NewYorkTime article page clone</h5>
+                              <div class="d-flex justify-content-between">
+                                <span class="card-text  p-2 text-wrap bg-dark"> HTML</span>
+                                <span class="card-text  p-2 text-wrap bg-dark">CSS</span>
+                              </div>
+                              <p class="card-text">A NewYorkTimes Article page clone milestone.</p>
+                              
+                              <a href="https://github.com/YinkTech/New-York-Times-Clone" target="_blank" class="card-link btn btn-outline-warning  p-1 m-0">Source Code <i class="bi bi-arrow-up-right-circle-fill "></i></a>
+                              <a href="https://yinktech.github.io/New-York-Times-Clone/" target="_blank" class="card-link btn btn-outline-info  p-1 m-0">Live Page <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                        <div class="card m-2">
+                            <div class="card-body">
+                              <h5 class="card-title">Pedestal UI</h5>
+                              <div class="d-flex justify-content-between">
+                                <span class="card-text  p-2 text-wrap bg-dark"> HTML</span>
+                                <span class="card-text  p-2 text-wrap bg-dark">CSS</span>
+                                <span class="card-text  p-2 text-wrap bg-dark">Bootstrap</span>
+                              </div>
+                              <p class="card-text">Mentoring for the next generation of leaders UI.</p>
+                              
+                              <a href="https://github.com/YinkTech/complex" target="_blank" class="card-link btn btn-outline-warning  p-1 m-0">Source Code <i class="bi bi-arrow-up-right-circle-fill "></i></a>
+                              <a href="https://yinktech.github.io/complex/" target="_blank" class="card-link btn btn-outline-info  p-1 m-0">Live Page <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-items d-flex">
+                        <div class="card m-2">
+                            <div class="card-body">
+                              <h5 class="card-title">Reformer</h5>
+                              <div class="d-flex justify-content-between">
+                                <span class="card-text  p-2 text-wrap bg-dark"> Ruby </span>
+                                <span class="card-text  p-2 text-wrap bg-dark"> Rails </span>
+                                <span class="card-text  p-2 text-wrap bg-dark">Collaborative</span>
+                              </div>
+                              <p class="card-text">The reformer is a user creation app. The app creates a user after a form has been filled by the particular user..</p>
+                              
+                              <a href="https://github.com/YinkTech/re-former" target="_blank" class="card-link btn btn-outline-warning  p-1 m-0">Source Code <i class="bi bi-arrow-up-right-circle-fill "></i></a>
+
+                            </div>
+                        </div>
+                        <div class="card m-2">
+                            <div class="card-body">
+                              <h5 class="card-title">Restaurant-Page-js</h5>
+                              <div class="d-flex justify-content-between">
+                                <span class="card-text  p-2 text-wrap bg-dark"> Webpack </span>
+                                <span class="card-text  p-2 text-wrap bg-dark"> HTML/CSS </span>
+                                <span class="card-text  p-2 text-wrap bg-dark"> ES6 </span>
+                              </div>
+                              <p class="card-text">This project is a javascript webpack and es6 functionalities. with different types of module pages.</p>
+                              
+                              <a href="https://github.com/YinkTech/Restaurant-Page-js" target="_blank" class="card-link btn btn-outline-warning  p-1 m-0">Source Code <i class="bi bi-arrow-up-right-circle-fill "></i></a>
+                              <a href="https://yinktech.github.io/Restaurant-Page-js/" target="_blank" class="card-link btn btn-outline-info  p-1 m-0">Live Page <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                        <div class="card m-2">
+                            <div class="card-body">
+                              <h5 class="card-title"> to-do-list </h5>
+                              <div class="d-flex justify-content-between">
+                                <span class="card-text  p-2 text-wrap bg-dark">HTML/CSS</span>
+                                <span class="card-text  p-2 text-wrap bg-dark">JavaScript</span>
+                              </div>
+                              <p class="card-text">We created a simple interface to-do list with properties like title, due date, and a checklist. It has featues like displaying your tasks, marking complete and deleting..</p>
+                              
+                              <a href="https://github.com/YinkTech/to-do-list" target="_blank" class="card-link btn btn-outline-warning  p-1 m-0">Source Code <i class="bi bi-arrow-up-right-circle-fill "></i></a>
+                              <a href="https://shadrxcc.github.io/to-do-list/" target="_blank" class="card-link btn btn-outline-info  p-1 m-0">Live Page <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                        <div class="card m-2">
+                            <div class="card-body">
+                              <h5 class="card-title">Random Images</h5>                             <div class="d-flex justify-content-between">
+                                <span class="card-text  p-2 text-wrap bg-dark"> ES6</span>
+                                <span class="card-text  p-2 text-wrap bg-dark">HTML/CSS</span>
+                                <span class="card-text  p-2 text-wrap bg-dark">Api</span>
+                              </div>
+                              <p class="card-text">this.</p>
+                              
+                              <a href="https://github.com/YinkTech/random-Images" target="_blank" class="card-link btn btn-outline-warning  p-1 m-0">Source Code <i class="bi bi-arrow-up-right-circle-fill "></i></a>
+                              <a href="https://yinktech.github.io/random-Images/" target="_blank" class="card-link btn btn-outline-info  p-1 m-0">Live Page <i class="bi bi-arrow-up-right-circle-fill"></i></a>
+                            </div>
+                        </div>
+                        <div class="card m-2">
+                            <div class="card-body">
+                              <h5 class="card-title">BookStore</h5>
+                              <div class="d-flex justify-content-between">
+                                <span class="card-text  p-2 text-wrap bg-dark"> Ruby</span>
+                                <span class="card-text  p-2 text-wrap bg-dark">Rails</span>
+                                <span class="card-text  p-2 text-wrap bg-dark">Bootstrap</span>
+                              </div>
+                              <p class="card-text">This is a Bookstore app that allows users to store there books in the different catelogue and also uncatelogue. as the user may desire. Each users cannot see each other registered books.</p>
+                              
+                              <a href="https://github.com/YinkTech/BookStore" target="_blank" class="card-link btn btn-outline-warning  p-1 m-0">Source Code <i class="bi bi-arrow-up-right-circle-fill "></i></a>
+                            </div>
+                        </div>
+                        <div class="card m-2">
+                            <div class="card-body">
+                              <h5 class="card-title">Private Events</h5>
+                              <div class="d-flex justify-content-between">
+                                <span class="card-text  p-2 text-wrap bg-dark"> Ruby</span>
+                                <span class="card-text  p-2 text-wrap bg-dark">Rails</span>
+                                <span class="card-text  p-2 text-wrap bg-dark">SCSS</span>
+                              </div>
+                              <p class="card-text">Private Event is an event creator app. The app creates an event after a form has been filled out by the user. Registered users on the platform can signify their willingness to attend any future event on the platform. All the users can also view the participants of a particular event.</p>
+                              
+                              <a href="https://github.com/YinkTech/private-events" target="_blank" class="card-link btn btn-outline-warning  p-1 m-0">Source Code <i class="bi bi-arrow-up-right-circle-fill "></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-
-
-
-            <div class="img-container">
-                <div class="pt-5">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="./assets/proj/Coins-MarketplaceMobile.png" class="img-fluid w-full h-full hover:scale-125 object-cover object-left transition-all" alt="">
-                        </div>
-                        <div class="col-md-9">
-                            <img src="./assets/proj/Coins-Marketplace.png" class="img-fluid transition-all" alt="">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="./assets/proj/Coins-MarketplaceMobile.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-9">
-                            <img src="./assets/proj/Coins-Marketplace.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                </div>
-                    
-            </div>
+<!-- other srcoll view -->
         </div>
     </div>
 </div>

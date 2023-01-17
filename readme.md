@@ -1,19 +1,24 @@
-# 
-> This is My Portfolio
+# Portfolio
 
-## Home Page
-![screenshot](./src/assets/screenshot.png)
+> My Portfolio showcasing projects built with JavaScript, React & Redux, Ruby and Ruby on Rails.
 
-## Built With 
-HTML <br> CSS <br> JavaScript
+
+## # Portfolio
+![screenshot](./assets/home.png)
+
+## Built With
+
+- HTML
+- SCSS
+- Bootstrap
 
 ## Live Demo
 
-[Live Demo](https://yinktech.github.io/Coins-Marketplace/)
+[View Portfolio](https://yinktech.github.io/portfolio/)
 
-## Authors
+## Author
 
-👤 **Author 1**
+👤 **Olayinka Ayeni**
 
 - GitHub: [@YinkTech](https://github.com/yinktech)
 - Twitter: [@YinkTech](https://twitter.com/yink_tech)
@@ -22,7 +27,7 @@ HTML <br> CSS <br> JavaScript
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/YinkTech/Coins-Marketplace/issues).
+Feel free to check the [issues page](https://github.com/YinkTech/portfolio/issues).
 
 ## Show your support
 
