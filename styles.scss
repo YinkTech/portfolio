@@ -174,9 +174,17 @@ a:hover {
 }
 
 .third-section {
+    .container-fluid {
+        --bs-gutter-x: 1.5rem;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
     .container {
         grid-column: 1/15;
         overflow-x: hidden;
+        --bs-gutter-x: 1.5rem;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
         h2 {
             color: $lead-text;
             margin-bottom: 10px;
@@ -364,7 +372,16 @@ a:hover {
         }
     }
     .third-section {
+        
+    .container-fluid {
+        --bs-gutter-x: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
         .container {
+            --bs-gutter-x: 0;
+            padding-right: 0;
+            padding-left: 0;
             .container-fluid {
                 .projectList {
                     .item {

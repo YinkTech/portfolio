@@ -187,9 +187,17 @@ a:hover {
   letter-spacing: 1.5px;
 }
 
+.third-section .container-fluid {
+  --bs-gutter-x: 1.5rem;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
 .third-section .container {
   grid-column: 1/15;
   overflow-x: hidden;
+  --bs-gutter-x: 1.5rem;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
 }
 .third-section .container h2 {
   color: #fff;
@@ -353,6 +361,16 @@ a:hover {
   }
   .header .nav .nav-text {
     font-size: 15px;
+  }
+  .third-section .container-fluid {
+    --bs-gutter-x: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .third-section .container {
+    --bs-gutter-x: 0;
+    padding-right: 0;
+    padding-left: 0;
   }
   .third-section .container .container-fluid .projectList .item {
     width: 200px;
