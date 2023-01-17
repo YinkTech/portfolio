@@ -213,7 +213,6 @@ a:hover {
   text-align: center;
 }
 .third-section .container .card .card-img {
-  height: 300px;
   transition: transform 0.2s;
 }
 .third-section .container .card .card-img:hover {
@@ -228,9 +227,8 @@ a:hover {
   width: 560px;
 }
 .third-section .container .projectList .item .flip-box {
-  border: 2px solid #0c717b;
   border-radius: 5px;
-  height: 354px;
+  height: 400px;
   perspective: 1000px;
 }
 .third-section .container .projectList .item .flip-box .flip-inner {
@@ -253,9 +251,8 @@ a:hover {
   transform: rotateY(180deg) scale(1);
 }
 .third-section .container .projectList .item .item-img {
+  border: 2px solid #0c717b;
   align-items: center;
-  width: 520px;
-  height: 350px;
   border-radius: 5px;
   transition: transform 0.2s;
 }

@@ -198,7 +198,6 @@ a:hover {
             width: 100%;
             text-align: center;
             .card-img {
-                height: 300px;
                 transition: transform .2s;
             }
             .card-img:hover {
@@ -214,9 +213,8 @@ a:hover {
                 text-align: start;
                 width: 560px;
                 .flip-box {
-                    border: 2px solid #0c717b;
                     border-radius: 5px;
-                    height: 354px;
+                    height: 400px;
                     perspective: 1000px;
                     .flip-inner {
                         position: relative;
@@ -239,9 +237,8 @@ a:hover {
                         transform: rotateY(180deg) scale(1);
                     }
                 .item-img {
+                    border: 2px solid #0c717b;
                     align-items: center;
-                    width: 520px;
-                    height: 350px;
                     border-radius: 5px;
                     transition: transform .2s;
                 }
