@@ -4,7 +4,7 @@
 
 
 ## # Portfolio
-![screenshot](./assets/home.png)
+![screenshot](./assets/HomeScreen.png)
 
 ## Built With
 
