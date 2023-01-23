@@ -453,6 +453,8 @@ a:hover {
 }
 .third-section .scroll-field .card-aside .card-frame .card-text-frame .card-icon-section,
 .third-section .mobile-display .card-aside .card-frame .card-text-frame .card-icon-section {
+  border-top: 1px solid #daa520;
+  border-left: 1px solid #daa520;
   display: flex;
   background-color: #1f2729;
   position: relative;
