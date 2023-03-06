@@ -126,6 +126,7 @@ a:hover {
 }
 
 .fancy {
+  font-size: 25px;
   padding: 15px;
   background: rgba(14, 128, 138, 0.3921568627);
   color: #fff;
