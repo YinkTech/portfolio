@@ -88,7 +88,8 @@ a:hover {
         color: $lead-text;
         font-size: 18px;
         font-family: "Poppins", sans-serif;
-        letter-spacing: 1.5px;
+        font-size: 20px;
+        letter-spacing: 1px;
     }
 }
 
@@ -108,6 +109,7 @@ a:hover {
 }
 
 .fancy {
+    font-size: 25px;
     padding: 15px;
     background: #0e808a64;
     color: $lead-text;

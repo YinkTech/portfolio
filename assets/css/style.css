@@ -111,7 +111,8 @@ a:hover {
   color: #fff;
   font-size: 18px;
   font-family: "Poppins", sans-serif;
-  letter-spacing: 1.5px;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 
 .first-section-aside {
@@ -129,6 +130,7 @@ a:hover {
 }
 
 .fancy {
+  font-size: 25px;
   padding: 15px;
   background: rgba(14, 128, 138, 0.3921568627);
   color: #fff;
