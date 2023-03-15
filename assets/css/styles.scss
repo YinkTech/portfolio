@@ -93,6 +93,7 @@ a:hover {
 }
 
 .first-section-aside {
+    animation: 3s ease-in-out 0.66s infinite normal none running imageMotion;
     .card {
         background: linear-gradient(#1f2729, #151a1c);
         font-family: 'Courier New', Courier, monospace;
@@ -600,5 +601,19 @@ a:hover {
                 }
             }
         }
+    }
+}
+
+@keyframes imageMotion {
+    0% {
+        transform: translate(0px, 0px);
+    }
+  
+    50% {
+        transform: translate(-5px, -5px);
+    }
+  
+    100% {
+        transform: translate(0px, 0px);
     }
 }
